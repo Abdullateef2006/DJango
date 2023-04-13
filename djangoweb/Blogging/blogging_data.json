@@ -1,0 +1,910 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-03-20T19:55:46.172Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Html learning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-03-20T19:58:43.420Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Abdullateef",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-03-20T19:59:09.589Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Abdullateef",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Last login\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-03-20T19:59:52.831Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Css leaning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-03-20T20:00:19.009Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Abdulmujeeb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-03-20T20:00:46.996Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Abdulmujeeb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Last login\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-03-20T20:01:00.500Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Abdulmujeeb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-03-20T20:01:24.558Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Abdullateef",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-03-20T20:03:31.701Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "javascript learning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-03-20T20:04:40.183Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Css leaning",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-03-20T20:05:50.742Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "python learning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$nzHdpVOoMZCZk1wM5qQAmc$E6v4/i3Wi/z1EpQvJlhTj1m7MLJ0t7EopbGGjgtuGH4=",
+    "last_login": "2023-03-22T11:39:59.569Z",
+    "is_superuser": true,
+    "username": "postgres",
+    "first_name": "",
+    "last_name": "",
+    "email": "abdullateefojugbele@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-20T13:04:41.397Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$UZTBRS55L0ueT7l0HYpSqA$CHcQvAndDk+asTc/oklniVDzaTrITuirVdNiJUYs1NQ=",
+    "last_login": "2023-03-20T19:59:07Z",
+    "is_superuser": true,
+    "username": "Abdullateef",
+    "first_name": "Abdullateef",
+    "last_name": "Ojugbele",
+    "email": "ojugbelelateef2006@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-20T19:58:42Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$SOX7tN2VCUDevckaSdUjwa$izh2gUo0tYnViKsdA/mW7VJFK7eyY+aEtIrvhMMCeCM=",
+    "last_login": "2023-03-20T20:00:42Z",
+    "is_superuser": true,
+    "username": "Abdulmujeeb",
+    "first_name": "Abdulfatai",
+    "last_name": "Abdulmujeeb",
+    "email": "sodiqtele@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-20T20:00:18Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "Blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "Blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "g3q4jpo3i1kzgxosmywqei1cgrgfa9f4",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmLR1w6d4zkGGYStVAUtqV8e7apAvd_vfef6lA25rD1mQJc1JnBer0u0Xih5QdpDuVW9Vcy7rMUe-KPmjT15rkeTncv4NMLX_riNagQxRvwYMwOmGywzB57IG9SZ6FnBttFAdRxr4DimLQd4kB3KTeH9QUN74:1peFCS:FLJ-bsig0cjX7DS9lO4vwxGSccLQ0xi5mMhweZKaXQE",
+    "expire_date": "2023-04-03T13:05:20.930Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "g65n2tinc1cd3buh4mvhqgo4c39n8mzi",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmLR1w6d4zkGGYStVAUtqV8e7apAvd_vfef6lA25rD1mQJc1JnBer0u0Xih5QdpDuVW9Vcy7rMUe-KPmjT15rkeTncv4NMLX_riNagQxRvwYMwOmGywzB57IG9SZ6FnBttFAdRxr4DimLQd4kB3KTeH9QUN74:1peLH6:uTFPULag-RYuWiEpjCQdQr9kgZJIKlWrRyYRMn4aoRo",
+    "expire_date": "2023-04-03T19:34:32.003Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l8jn973hxqkvnqu2t0v43cxwklt2cxvm",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmLR1w6d4zkGGYStVAUtqV8e7apAvd_vfef6lA25rD1mQJc1JnBer0u0Xih5QdpDuVW9Vcy7rMUe-KPmjT15rkeTncv4NMLX_riNagQxRvwYMwOmGywzB57IG9SZ6FnBttFAdRxr4DimLQd4kB3KTeH9QUN74:1pewox:s2SxG9Jv3DpYTCGWbcQBr0woBd8fsQ7IYgEufdbKSrM",
+    "expire_date": "2023-04-05T11:39:59.577Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "s0fdqb2iqn8fnk1wh9fvncfthmhx7l8f",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmLR1w6d4zkGGYStVAUtqV8e7apAvd_vfef6lA25rD1mQJc1JnBer0u0Xih5QdpDuVW9Vcy7rMUe-KPmjT15rkeTncv4NMLX_riNagQxRvwYMwOmGywzB57IG9SZ6FnBttFAdRxr4DimLQd4kB3KTeH9QUN74:1peFQq:70gaEkGNDoLqDCwfITM_98I3sUmH1W4YGxkBiesUqmE",
+    "expire_date": "2023-04-03T13:20:12.532Z"
+  }
+},
+{
+  "model": "Blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Html learning",
+    "slug": "html-learning",
+    "author": 1,
+    "body": "Learn how to use html",
+    "publish": "2023-03-20T19:54:59Z",
+    "created": "2023-03-20T19:55:46.148Z",
+    "updated": "2023-03-20T19:55:46.148Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "Blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Css leaning",
+    "slug": "css-leaning",
+    "author": 2,
+    "body": "Learn css",
+    "publish": "2023-03-20T19:59:12Z",
+    "created": "2023-03-20T19:59:52.788Z",
+    "updated": "2023-03-20T20:04:40.167Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "Blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "javascript learning",
+    "slug": "javascript-learning",
+    "author": 3,
+    "body": "learn how to make your website interactive",
+    "publish": "2023-03-20T20:01:53Z",
+    "created": "2023-03-20T20:03:31.677Z",
+    "updated": "2023-03-20T20:03:31.677Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "Blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "python learning",
+    "slug": "python-learning",
+    "author": 3,
+    "body": "learning python backend",
+    "publish": "2023-03-20T20:05:10Z",
+    "created": "2023-03-20T20:05:50.726Z",
+    "updated": "2023-03-20T20:05:50.726Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "Blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "name": "Abdullateef",
+    "email": "ojugbelelateef2006@gmail.com",
+    "body": "Try this post",
+    "created": "2023-03-20T19:56:59.786Z",
+    "updated": "2023-03-20T19:56:59.786Z",
+    "active": true
+  }
+},
+{
+  "model": "Blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 4,
+    "name": "Isiaq Ojugbele",
+    "email": "FuhadAmusa@gmail.com",
+    "body": "I love this post so much",
+    "created": "2023-03-20T20:06:27.939Z",
+    "updated": "2023-03-20T20:06:27.939Z",
+    "active": true
+  }
+},
+{
+  "model": "Blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 1,
+    "name": "Abdulazeem Abdulganiy",
+    "email": "abdulazeem@gmail.com",
+    "body": "I love this post",
+    "created": "2023-03-21T05:45:31.962Z",
+    "updated": "2023-03-21T05:45:31.962Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "HTML",
+    "slug": "html"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "sheet",
+    "slug": "sheet"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "style",
+    "slug": "style"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Cascading",
+    "slug": "cascading"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Javascript",
+    "slug": "javascript"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "stylesheet",
+    "slug": "stylesheet"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Backend",
+    "slug": "backend"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+}
+]
