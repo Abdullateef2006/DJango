@@ -25,7 +25,7 @@ def Post_List(request, tag_slug=None):
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
 
-    return render(request, 'Blog/Post/List.html', {'posts': posts, 'tag': tag})
+    return render(request, 'Blog/Post/index.html', {'posts': posts, 'tag': tag})
 
 
 def Post_Detail(request, year, month, day, post):
